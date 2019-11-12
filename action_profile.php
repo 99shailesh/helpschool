@@ -1,0 +1,33 @@
+<?php
+session_start();
+$con=mysqli_connect("localhost","root","","helpschool");
+if($con==false)
+{
+	echo "couldnot connect";
+}
+$fname=$_POST["fname"];
+$cntatc=$_POST["contact"];
+$add=$_POST["add"];
+$school1=$_POST["school1"];
+$school2=$_POST["school2"];
+$school3=$_POST["school3"];
+$school4=$_POST["school4"];
+$s1d1=$_POST["s1d1"];
+$s1d2=$_POST["s1d2"];
+$s2d1=$_POST["s2d1"];
+$s2d2=$_POST["s2d2"];
+$s3d1=$_POST["s3d1"];
+$s3d2=$_POST["s3d2"];
+$s4d1=$_POST["s4d1"];
+$s4d2=$_POST["s4d2"];
+$sc1d1=$_POST["sc1d1"];
+$sc1d2=$_POST["sc1d2"];
+$sc2d1=$_POST["sc2d1"];
+$sc2d2=$_POST["sc2d2"];
+$sc3d1=$_POST["sc3d1"];
+$sc3d2=$_POST["sc3d2"];
+$sc4d1=$_POST["sc4d1"];
+$sc4d2=$_POST["sc4d2"];
+$query="insert into profile values ('$fname','$cntatc','$add','$school1','$s1d1','$s1d2','$s2d1','$school2','$s2d1','$s2d2','$school3','$s3d1','$s3d2','$school4','$s4d1','$s4d2',$sc1d1,$sc1d2,$sc2d1,$sc2d2,$sc3d1,$sc3d2,$sc4d1,$sc4d2)";
+$result=mysqli_query($con,$query);
+?>

@@ -1,0 +1,203 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/* ------navigation------*/
+#nav
+{
+	postion:sticky;
+	top:0;
+	z-index: 10;	
+}
+.navbar-brand img
+{
+	height: 50px;
+	width: 50px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.nav li a
+{
+   float: right;
+   text-align:left;
+}
+#nav ul li a:hover
+{
+	color: #007bff!important;
+}
+.navbar
+{
+	background: #fff;
+}
+.navbar-toggler
+{
+	border:none!important;
+}
+.nav-link
+{
+	color:#555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+#slider
+{
+	width:100%;
+}
+.carousel-item active img
+{
+	width:100%;
+}
+.carousel-item img
+{
+	width:100%;
+}
+/*--ABOUT-US--*/
+#ABOUT-US
+{
+	paddiing-top:50px;
+	padding-bottom: 50px;
+	color:#555;
+
+}
+#ABOUT-US .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.content
+{
+padding-top:20px;
+}
+.study-material p
+{
+	margin-bottom: 6px;
+	font-weight: 600;
+}
+.progress-bar
+{
+	border-radius: 16px;
+}
+.progress
+{
+	border-radius: 16px!important;
+	margin-bottom: 20px;
+}
+/*-----notes-----*/
+.container
+{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/notes.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top:50px;
+    padding-bottom: 50px;
+    color: #ffff;
+
+}
+.container h3
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.container h3::after
+{
+content: '';
+display: block;
+height: 3px;
+width:170px;
+margin:20px auto 5px;
+
+}
+.notes
+{
+	margin-top: 20px;
+}
+.icon i
+{
+	font-size: 35px;
+	margin:20px auto;
+	padding:20px;
+	height:80px;
+	width:80px;
+	border:1px solid #fff;
+	border-radius:50px;
+}
+.icon h4
+{
+  text-align: center;
+}
+.icon p
+{
+	font-weight: 8px;
+	margin-top:5px;
+	text-align: center;
+}
+/*--end--*/
+/*-------form------*/
+.container1
+{
+	padding-top: 20px;
+	margin: 10px;
+	background-color: #d3d3d3;
+
+}
+.form-control
+{
+	padding:10px;
+	margin-left:20px;
+	margin:20px auto;
+}
+.btn1
+{
+	margin-bottom: 20px;
+	margin-left:100px;
+}
+
+
+.bg-light p
+{
+ color: red;
+ font-weight: 8px;
+}
+/*-------------*/
+.icon1 p
+{
+ font-weight:50px;
+ margin-left:30px 
+
+}
+#start-with
+{
+   padding:20px auto;
+   background-color: #808080; 
+}
+.icon1 p:hover
+{
+	text-transform: uppercase;
+	text-decoration: underline;
+	color:blue;
+}
+.icon1 i
+{
+	margin-left: 40px;
+}
+.st h3
+{
+	margin-left:20px;
+}
+.nd li:hover
+{
+    text-transform: uppercase;
+	text-decoration: underline;
+	color:blue;
+}
+.rd li:hover
+{
+    text-transform: uppercase;
+	text-decoration: underline;
+	color:blue;	
+}
+/*-------------*/
