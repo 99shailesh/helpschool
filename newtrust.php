@@ -312,7 +312,7 @@ if(isset($_SESSION['msg']))
 
 
 <!--apllication-->
-<div class="row">
+<div class="row" id="application">
 <div class="card">
 <?php 
 $con=mysqli_connect("localhost","root","","helpschool");

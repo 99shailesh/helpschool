@@ -5,5 +5,5 @@ unset($_SESSION["type"]);
 unset($_SESSION["new_usr"]);
 unset($_SESSION["msg"]);
 unset($_SESSION["amsg"]);
-header('location:htext.php');
+header('location:index.php');
 ?>

@@ -16,14 +16,14 @@ try {
     $mail->isSMTP();                                            // Set mailer to use SMTP
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                                   // Enable SMTP authentication
-    $mail->Username = 'saurabhkumar.t@somaiya.edu';                     // SMTP username
-    $mail->Password = 'saurabh@807';                               // SMTP password
+    $mail->Username = 'ushailesh40@gmail.com';                     // SMTP username
+    $mail->Password = 'Shailesh@1999';                               // SMTP password
     $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('noreply-helpschool@somaiya.edu');
-    $mail->addAddress("shailesh.ru@somaiya.edu");
+    $mail->setFrom('ushailesh40@gmail.com');
+    $mail->addAddress("ushailesh40@gmail.com");
     
 
   
@@ -46,10 +46,10 @@ try {
 
     $mail->send();
     $_SESSION['msg']='Message has been sent';
-    header('location:htext.php');
+    header('location:index.php');
 } catch (Exception $e) {
     $_SESSION['msg']="Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
-    header('location:htext.php');
+    header('location:index.php');
 }
 
 ?>
