@@ -16,6 +16,5 @@ calm and read carefully
      2. put all folders at xampp/htdocs
      3. import .sql file to localhost/phpMyAdmin
      4. in browser localhost/helpschool/htext.php  
-## Test-link
-[test-link] (https://github.com/99shailesh/helpschool/edit/master/README.md)
+
     
