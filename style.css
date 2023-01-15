@@ -1,0 +1,456 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/* ------navigation------*/
+#nav
+{
+	postion:sticky;
+	top:0;
+	z-index: 10;	
+}
+.navbar-brand img
+{
+	height: 50px;
+	width: 50px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.nav li a
+{
+   float: right;
+   text-align:left;
+}
+#nav ul li a:hover
+{
+	color: #007bff!important;
+}
+.navbar
+{
+	background: #fff;
+}
+.navbar-toggler
+{
+	border:none!important;
+}
+.nav-link
+{
+	color:#555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+#slider
+{
+	width:100%;
+}
+.carousel-item active img
+{
+	width:100%;
+}
+.carousel-item img
+{
+	width:100%;
+}
+/*--ABOUT-US--*/
+#ABOUT-US
+{
+	margin-top: 25px;
+	padding-bottom: 50px;
+	color:#555;
+
+}
+#ABOUT-US .btn
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.content
+{
+padding-top:20px;
+}
+.study-material  p
+{
+	margin-bottom: 6px;
+	font-weight: 600;
+	justify-content: center;
+}
+.progress-bar
+{
+	border-radius: 16px;
+}
+.progress
+{
+	border-radius: 16px!important;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+/*-----notes-----*/
+.container1
+{
+	margin-top: 10px;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/notes.jpeg);
+    background-size: cover;
+    background-position: center;
+	max-width: 60%;
+	margin-left:20%;
+    background-attachment: fixed;
+    padding-top:50px;
+    padding-bottom: 50px;
+    color: #ffff;
+
+}
+.container1 h3
+{
+	text-align: center;
+	padding-bottom: 10px;
+}
+.container1 h3::after
+{
+content: '';
+display: block;
+height: 3px;
+width:170px;
+margin:20px auto 5px;
+
+}
+.notes
+{
+	margin-top: 20px;
+}
+.container1 i
+{
+	font-size: 35px;
+	margin:20px auto;
+	padding:20px;
+	height:80px;
+	width:80px;
+	border:1px solid #fff;
+	border-radius:50px;
+}
+.icon1 h4
+{
+  text-align: center;
+}
+.icon1 p
+{
+	font-weight: 8px;
+	margin-top:5px;
+	text-align: center;
+}
+/*--end--*/
+
+
+
+
+
+/*-------form------*/
+.container2
+{
+	padding-top: 20px;
+	margin: 10px;
+	margin-top: 25px;
+	margin-left:20%;
+	max-width: 60%;
+	background-color: #d3d3d3;
+
+}
+.form-control
+{
+	padding:10px;
+	margin-left:20px;
+	margin:20px auto;
+}
+.btn1
+{
+	margin:auto;
+	margin-bottom: 20px;
+	width: 40%;
+}
+
+
+.bg-light p
+{
+ color: red;
+ font-weight: 8px;
+}
+
+.icon1 p
+{
+ font-weight:50px;
+ margin-left:30px 
+
+}
+#start-with
+{
+   padding:20px auto;
+   background-color: #808080; 
+}
+.icon1 i
+{
+	margin-left: 40px;
+}
+.st h3
+{
+	margin-left:20px;
+}
+.nd li:hover
+{
+    text-transform: uppercase;
+	text-decoration: underline;
+	color:blue;
+}
+.rd li:hover
+{
+    text-transform: uppercase;
+	text-decoration: underline;
+	color:blue;	
+}
+
+.row1_about_us{
+	margin-left: 10%;
+}
+.row2_about_us{
+	margin-right: 10%;
+}
+
+
+/*-------actual contact us form------*/
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: #04AA6D;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #45a049;
+  }
+  
+  /* Style the container/contact section*/
+  .container3 {
+	border-radius: 5px;
+	background-color:hsl(180, 8%, 97%);
+	padding: 10px;
+	max-width: 70%;
+	margin:auto;
+	margin-top:20px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .container3 .column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+  }
+  
+
+.container3 .btn1
+{
+	margin:auto;
+	margin-bottom: 20px;
+	font-size: large;
+	width: 40%;
+}
+
+
+  /* Clear floats after the columns*/
+  .container3 .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+	.container3 .column, input[type=submit] {
+	  width: 100%;
+	  margin-top: 0;
+	}
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /*footer*/
+
+
+  .site-footer
+  {
+	background-color:#26272b;
+	padding:45px 0 20px;
+	font-size:15px;
+	line-height:24px;
+	color:#737373;
+	margin-top: 30px;
+  }
+  .site-footer hr
+  {
+	border-top-color:#bbb;
+	opacity:0.5
+  }
+  .site-footer hr.small
+  {
+	margin:20px 0
+  }
+  .site-footer h5
+  {
+	color:#fff;
+	font-size:25px;
+	text-transform:uppercase;
+	margin-top:5px;
+	letter-spacing:2px
+  }
+  .site-footer a
+  {
+	color:#737373;
+	font-size: 20px;
+	margin-right:25px;
+  }
+  .site-footer a:hover
+  {
+	color:#3366cc;
+	text-decoration:none;
+  }
+ 
+  .site-footer .social-icons
+  {
+	text-align:right
+  }
+  .site-footer .social-icons a
+  {
+	width:40px;
+	height:40px;
+	line-height:40px;
+	margin-left:6px;
+	margin-right:0;
+	border-radius:100%;
+	background-color:#33353d
+  }
+  .copyright-text
+  {
+	margin:0
+  }
+  @media (max-width:991px)
+  {
+	.site-footer [class^=col-]
+	{
+	  margin-bottom:30px
+	}
+  }
+  @media (max-width:767px)
+  {
+	.site-footer
+	{
+	  padding-bottom:0
+	}
+	.site-footer .copyright-text,.site-footer .social-icons
+	{
+	  text-align:center
+	}
+  }
+  .social-icons
+  {
+	padding-left:0;
+	margin-bottom:0;
+	list-style:none
+  }
+  .social-icons li
+  {
+	display:inline-block;
+	margin-bottom:4px
+  }
+  .social-icons li.title
+  {
+	margin-right:15px;
+	text-transform:uppercase;
+	color:#96a2b2;
+	font-weight:700;
+	font-size:13px
+  }
+  .social-icons a{
+	background-color:#eceeef;
+	color:#818a91;
+	font-size:16px;
+	display:inline-block;
+	line-height:44px;
+	width:44px;
+	height:44px;
+	text-align:center;
+	margin-right:8px;
+	border-radius:100%;
+	-webkit-transition:all .2s linear;
+	-o-transition:all .2s linear;
+	transition:all .2s linear
+  }
+  .social-icons i{
+	margin-top:25%;
+  }
+  .footer_add,.copyright-text{
+	margin-left:21%;
+  }
+
+  .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+  {
+	color:#fff;
+	background-color:#29aafe
+  }
+  .social-icons.size-sm a
+  {
+	line-height:34px;
+	height:34px;
+	width:34px;
+	font-size:14px
+  }
+  .social-icons a.facebook:hover
+  {
+	background-color:#3b5998;
+	
+  }
+  .social-icons a.twitter:hover
+  {
+	background-color:#00aced
+  }
+  .social-icons a.linkedin:hover
+  {
+	background-color:#007bb6
+  }
+  .social-icons a.dribbble:hover
+  {
+	background-color:#ea4c89
+  }
+  @media (max-width:767px)
+  {
+	.social-icons li.title
+	{
+	  display:block;
+	  margin-right:0;
+	  font-weight:600
+	}
+  }

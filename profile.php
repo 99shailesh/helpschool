@@ -1,0 +1,13 @@
+<?php
+  session_start();
+  if($_SESSION['type']=='student')
+  {
+   header('location:student.php');
+   exit();
+  }
+  else
+  {
+    header('location:newtrust.php');
+    exit();
+  } 
+?>

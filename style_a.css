@@ -1,0 +1,8 @@
+.container {
+    background-color: #a9a9a9;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
